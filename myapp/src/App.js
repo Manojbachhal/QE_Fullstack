@@ -27,7 +27,7 @@ function App() {
       {state.map((ele) => (
         <div key={ele._id.toString()}>
           <img src={ele.url} style={{ width: "140px" }} alt={ele.name} />
-          <p>{ele.name}</p>
+          <p>Bookname : {ele.name}</p>
         </div>
       ))}
     </div>
